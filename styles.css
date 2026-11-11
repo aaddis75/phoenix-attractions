@@ -5,6 +5,10 @@ article img {
   border-radius: 8px;
 }
 
+h1 {
+    background-color: #DB6443;
+    color: #FEFDFB;
+}
 main {
   display: flex;
   gap: 50px;
