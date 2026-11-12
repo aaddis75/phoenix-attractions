@@ -77,3 +77,24 @@ section {
     gap: 30px;
     align-self: center;
 }
+
+footer {
+    font-size: 12px;
+    justify-content: center;
+    color: 386641;
+}
+
+footer h2 {
+    color: #386641;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+footer a{
+font-size: 10px;
+    color: #386641;
+}
+
+footer ul{
+    margin-top: 2px;
+}
