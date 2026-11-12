@@ -6,24 +6,28 @@ article img {
 }
 
 header {
-    font-family: Open Sans, sans-serif;
+  font-family:
+    Open Sans,
+    sans-serif;
   background-color: #c94a26;
   color: #fefdfb;
   text-align: center;
   border-radius: 10px;
-  padding: 15px;
+  padding: 5px 5px 5px 5px;
 }
 
 h1 {
-  font-family: Open Sans, sans-serif;
-  
+  font-family:
+    Open Sans,
+    sans-serif;
+    font-size: 1.75rem;
 }
 
 body {
-    font-family: Figtree, sans-serif;
-    background-color: #fdf0d5;
+  font-family: Figtree, sans-serif;
+  background-color: #fdf0d5;
 }
-    
+
 main {
   display: flex;
   gap: 50px;
@@ -40,21 +44,36 @@ article {
 article a {
   background-color: #c94a26;
   color: #edede9;
-  padding: 10px;
+  padding: 5px;
   border-radius: 8px;
   align-self: center;
-  margin-top: auto;
-  margin-bottom: 10px;
+  text-decoration: none;
 }
 
 article button {
-    border: solid, #c94a26; 
-    background-color: #fefdfb; 
-    border-radius: 25px;
-    color: #c94a26;
-    font-family: Figtree, sans-serif;
-    font-weight: bold;
-    align-self: center;
-    padding: 5px 20px;
+  border: solid, #c94a26;
+  background-color: #fefdfb;
+  border-radius: 25px;
+  color: #c94a26;
+  font-family: Figtree, sans-serif;
+  font-weight: bold;
+  align-self: center;
+  padding: 5px 20px;
+}
 
+section {
+    border: solid, #c94a26;
+    border-radius: 25px;
+    font-family: Figtree, sans-serif;
+    margin-top: 20px;
+    padding: 10px 30px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trip-actions {
+    display: flex;
+    gap: 30px;
+    align-self: center;
 }

@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phoenix Attractions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
     <link rel="icon" type="image/png" href="images/favicon.ico" />
@@ -14,7 +17,10 @@
   <body>
     <header>
       <h1>Your Phoenix Adventure Starts Here</h1>
-      <p>Ready to explore Phoenix and surrounding areas? Add favorite attractions to your trip and start planning a unique desert adventure.</p>
+      <p>
+        Ready to explore Phoenix and surrounding areas? Add favorite attractions
+        to your trip and start planning a unique desert adventure.
+      </p>
     </header>
     <main>
       <article>
@@ -24,10 +30,9 @@
           alt="Scenic view of the Sonoran Desert with towering saguaros"
         />
         <p>
-          Explore the Sonoran Desert at the McDowell Sonoran Preserve, where
-          scenic hiking trails, diverse wildlife, native plants, and stunning
-          desert landscapes await visitors daily from sunrise to sunset, free of
-          charge.
+          Explore the beauty of the desert at the McDowell Sonoran Preserve,
+          where scenic hiking trails, diverse wildlife, native plants, and
+          stunning vistas await.
         </p>
         <ul>
           <li>Location: 23015 N 128th Street, Scottsdale, AZ 85255</li>
@@ -35,15 +40,20 @@
           <li>Cost: Trails are free.</li>
           <li>Pet Friendly: Yes, dogs allowed on trailheads.</li>
         </ul>
-        <a
-          href="https://mcdowellsonoran.org/"
-          aria-label="Learn more about The McDowell Sonoran Conservancy"
-        >
-          Learn more</a
-        >
-        <button aria-label="Add McDowell Sonoran Conservancy to my trip">
-          Add to my trip
-        </button>
+        <div class="trip-actions">
+          <a
+            href="https://mcdowellsonoran.org/"
+            aria-label="Learn more about The McDowell Sonoran Conservancy"
+          >
+            Learn more</a
+          >
+          <button
+            data-attraction="McDowell Sonoran Preserve"
+            aria-label="Add McDowell Sonoran Preserve to my trip"
+          >
+            Add to my trip
+          </button>
+        </div>
       </article>
       <article>
         <h2>Desert Botanical Garden</h2>
@@ -52,26 +62,30 @@
           alt="Colorful desert plants, cacti and blooming flowers"
         />
         <p>
-          Discover the beauty of the Sonoran Desert at the Desert Botanical
-          Garden, home to thousands of fascinating desert plants, colorful
-          seasonal blooms, and inviting trails that celebrate the region's
-          unique natural landscape.
+          This curated outdoor space is home to thousands of desert
+          plants, colorful seasonal blooms, and walking trails that showcase
+          the region's unique natural landscape.
         </p>
         <ul>
-          <li>Location: 1201 N. Galvin Parkway, Phoenix, AZ 85008</li>
+          <li>Location: 1201 N Galvin Parkway, Phoenix, AZ 85008</li>
           <li>Hours: Daily, from 7am - 10pm.</li>
           <li>Cost: $32.95 for adults, $16.95 for kids.</li>
           <li>Pet Friendly: Dogs allowed for special events.</li>
         </ul>
+        <div class="trip-actions">
         <a
           href="https://dbg.org/"
           aria-label="Learn more about Desert Botanical Garden"
         >
           Learn more</a
         >
-        <button aria-label="Add Desert Botanical Garden to my trip">
+        <button
+          data-attraction="Desert Botanical Garden"
+          aria-label="Add Desert Botanical Garden to my trip"
+        >
           Add to my trip
         </button>
+        </div>
       </article>
       <article>
         <h2>Tacos Chiwas</h2>
@@ -80,7 +94,7 @@
           alt="A platter of tacos with fresh garnish and lime wedges, served with sides of beans and hot sauce"
         />
         <p>
-          Savor authentic Chihuahua-style Mexican street food at this Phoenix
+          Savor delicious Chihuahua-style Mexican street food at this Phoenix
           favorite known for its handmade tortillas, flavorful tacos, and
           delicious regional specialties.
         </p>
@@ -90,21 +104,25 @@
           <li>Cost: $3.49 per taco, $10 per burrito, $6 per quesadilla.</li>
           <li>Pet Friendly: Service dogs allowed inside.</li>
         </ul>
+        <div class="trip-actions">
         <a
           href="https://www.tacoschiwas.com/"
           aria-label="Learn more about Tacos Chiwas"
         >
           Learn more
         </a>
-        <button aria-label="Add Tacos Chiwas to my trip">
+        <button
+          data-attraction="Tacos Chiwas"
+          aria-label="Add Tacos Chiwas to my trip"
+        >
           Add to my trip
         </button>
+        </div>
       </article>
     </main>
-    <section>
-<h2>My Trip</h2>
-<ul id="your-trip">
-</ul>
+     <section>
+      <h2>My Trip</h2>
+      <ul id="your-trip"></ul>
     </section>
   </body>
 </html>
