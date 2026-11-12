@@ -6,8 +6,8 @@ article img {
 }
 
 h1 {
-    background-color: #DB6443;
-    color: #FEFDFB;
+  background-color: #c94a26;
+  color: #fefdfb;
 }
 main {
   display: flex;
@@ -17,5 +17,16 @@ main {
 }
 
 article {
-    width: 450px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+article a {
+  background-color: #c94a26;
+  color: #fefdfb;
+  padding: 10px;
+  border-radius: 8px;
+  align-self: center;
+  margin-top: auto;
 }

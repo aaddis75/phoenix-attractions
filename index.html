@@ -6,11 +6,12 @@
     <title>Phoenix Attractions</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
-    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
   </head>
   <body>
     <header>
-      <h1>Phoenix Attractions</h1>
+      <h1>Your Phoenix Adventure Starts Here</h1>
+      <p>Ready to explore Phoenix? Add your favorite attractions to your trip and start planning an unforgettable desert adventure.</p>
     </header>
     <main>
       <article>
@@ -31,9 +32,15 @@
           <li>Cost: Trails are free.</li>
           <li>Pet Friendly: Yes, dogs allowed on trailheads.</li>
         </ul>
-        <a href="https://mcdowellsonoran.org/"
-          >Visit the McDowell Sonoran Conservancy website</a
+        <a
+          href="https://mcdowellsonoran.org/"
+          aria-label="Learn more about The McDowell Sonoran Conservancy"
         >
+          Learn more</a
+        >
+        <button aria-label="Add McDowell Sonoran Conservancy to my trip">
+          Add to my trip
+        </button>
       </article>
       <article>
         <h2>Desert Botanical Garden</h2>
@@ -53,7 +60,15 @@
           <li>Cost: $32.95 for adults, $16.95 for kids.</li>
           <li>Pet Friendly: Dogs allowed for special events.</li>
         </ul>
-        <a href="https://dbg.org/">Visit the Desert Botanical Garden website</a>
+        <a
+          href="https://dbg.org/"
+          aria-label="Learn more about Desert Botanical Garden"
+        >
+          Learn more</a
+        >
+        <button aria-label="Add Desert Botanical Garden to my trip">
+          Add to my trip
+        </button>
       </article>
       <article>
         <h2>Tacos Chiwas</h2>
@@ -72,11 +87,21 @@
           <li>Cost: $3.49 per taco, $10 per burrito, $6 per quesadilla.</li>
           <li>Pet Friendly: Dogs not allowed inside.</li>
         </ul>
-        <a href="https://www.tacoschiwas.com/"
-          >Visit the Tacos Chiwas website</a
+        <a
+          href="https://www.tacoschiwas.com/"
+          aria-label="Learn more about Tacos Chiwas"
         >
+          Learn more
+        </a>
+        <button aria-label="Add Tacos Chiwas to my trip">
+          Add to my trip
+        </button>
       </article>
     </main>
-    <section></section>
+    <section>
+<h2>My Trip</h2>
+<ul id="your-trip">
+</ul>
+    </section>
   </body>
 </html>
