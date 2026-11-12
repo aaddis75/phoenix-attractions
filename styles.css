@@ -6,9 +6,15 @@ article img {
 }
 
 h1 {
+  font-family: Open Sans, sans-serif;
   background-color: #c94a26;
   color: #fefdfb;
 }
+
+body {
+    font-family: Figtree, sans-serif;
+}
+    
 main {
   display: flex;
   gap: 50px;
@@ -29,4 +35,16 @@ article a {
   border-radius: 8px;
   align-self: center;
   margin-top: auto;
+  margin-bottom: 10px;
+}
+
+article button {
+    border: solid, #c94a26; 
+    border-radius: 25px;
+    color: #c94a26;
+    font-family: Figtree, sans-serif;
+    font-weight: bold;
+    align-self: center;
+    padding: 5px 20px;
+
 }
